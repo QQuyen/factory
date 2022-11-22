@@ -12,5 +12,4 @@ export class Nav_menuComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

@@ -7,11 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SlideComponent implements OnInit {
 
-  bannerDetail = ['Industry Plus đã liên tục chấp nhận sự đổi mới để cung cấp một mức độ xuất sắc vượt trội.', 
-                  'We import & export good brought into a jurisdiction, especially across a national',
-                  'Industry Plus has consistently embraced innovation to provide a superior.']
+  bannerDetail = ['1. Industry Plus đã liên tục chấp nhận sự đổi mới để cung cấp một mức độ xuất sắc vượt trội.',
+                  '2. We import & export good brought into a jurisdiction, especially across a national',
+                  '3. Industry Plus has consistently embraced innovation to provide a superior.']
   bannerInput ='';
-  
+
   constructor() { }
 
   ngOnInit() {
@@ -23,6 +23,8 @@ export class SlideComponent implements OnInit {
             count++;
         }else{
           count = 0;
+          this.bannerInput = this.bannerDetail[count];
+          count++;
         }
       },5000)
   }
