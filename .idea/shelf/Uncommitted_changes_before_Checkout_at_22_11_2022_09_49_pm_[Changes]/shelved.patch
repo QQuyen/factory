@@ -1,0 +1,19 @@
+Index: Factory/src/app/app.component.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><div class=\"font-sans\">\r\n  <app-header></app-header>\r\n  <app-nav_menu></app-nav_menu>\r\n  <app-slide></app-slide>\r\n  <app-content></app-content>\r\n  <app-bottom></app-bottom>\r\n</div>\r\n  
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Factory/src/app/app.component.html b/Factory/src/app/app.component.html
+--- a/Factory/src/app/app.component.html	(revision 6e32c9e65235c9feffd68e5ec9d46d56d8d23661)
++++ b/Factory/src/app/app.component.html	(date 1669128586204)
+@@ -5,4 +5,6 @@
+   <app-content></app-content>
+   <app-bottom></app-bottom>
+ </div>
+-  
+\ No newline at end of file
++  <div>
++    jaghsdasdjhagsdhgasdjhasgdh
++  </div>
