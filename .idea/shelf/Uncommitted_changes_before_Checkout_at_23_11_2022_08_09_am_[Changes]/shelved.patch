@@ -1,0 +1,17 @@
+Index: Factory/src/app/app.component.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><div class=\"font-sans\">\r\n  <app-header></app-header>\r\n  <app-nav_menu></app-nav_menu>\r\n  <app-slide></app-slide>\r\n  <app-content></app-content>\r\n  <app-bottom></app-bottom>\r\n</div>\r\n<div>\r\n  <p>tesst check out rtrtsasaa</p>\r\n</div>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Factory/src/app/app.component.html b/Factory/src/app/app.component.html
+--- a/Factory/src/app/app.component.html	(revision d68f41e600544554d850d842d3b394d403d4c5a6)
++++ b/Factory/src/app/app.component.html	(date 1669165746771)
+@@ -6,5 +6,5 @@
+   <app-bottom></app-bottom>
+ </div>
+ <div>
+-  <p>tesst check out rtrtsasaa</p>
++  <p>tesst check out test 222222222</p>
+ </div>
